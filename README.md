@@ -111,6 +111,57 @@ possible.
 for a system’s requirements, attributes, and traces,
 with automatic links to external documents.
 
+#### Component based Architecture
+A system’s architecture is the most important deliverable that can be used to manage
+these different viewpoints and thereby controls the iterative and
+incremental development of a system throughout its life cycle.
+A system’s architecture encompasses the set of significant decisions
+about
+* The organization of a software system
+* The selection of the structural elements and their interfaces
+by which the system is composed
+* Their behavior, as specified by the collaborations among
+those elements
+* The composition of these structural and behavioral
+elements into progressively larger subsystems
+* The architectural style that guides this organization: these elements and their interfaces, their collaborations, and
+  their composition
+  
+Software architecture is concerned not only with structure and
+behavior but also with usage, functionality, performance, resilience,
+reuse, comprehensibility, economic and technology constraints and
+trade-offs, and aesthetic concerns.
+
+Building **resilient architectures** is important because they enable
+economically significant degrees of reuse, offer a clear division
+of work among teams of developers, isolate hardware and
+software dependencies that may be subject to change, and improve
+maintainability.
+
+Component-based development (CBD) is an important approach
+to software architecture because it enables the reuse or customization
+of existing components from thousands of commercially available sources. 
+
+Coupled with the practice of developing software iteratively,
+using component-based architectures involves the continuous evolution
+of a system’s architecture. Each iteration produces an executable
+architecture that can be measured, tested, and evaluated
+against the system’s requirements.
+
+Using component-based architectures offers a number of solutions
+to the root causes of software development problems.
+1. Components facilitate resilient architectures.
+2. Modularity enables a clear separation of concerns among
+elements of a system that are subject to change.
+3. Reuse is facilitated by leveraging standardized frameworks
+(such as COM+, CORBA, and EJB) and commercially available
+components.
+4. Components provide a natural basis for configuration
+management.
+5. Visual modeling tools provide automation for componentbased
+development.
+
+
 ### References
 * The Rational Unified Process An Introduction by *Philippe Kruchten*
 
