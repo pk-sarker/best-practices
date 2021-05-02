@@ -161,7 +161,108 @@ management.
 5. Visual modeling tools provide automation for componentbased
 development.
 
+#### Visually Model
+A model is a simplification of reality that completely describes a
+system from a particular perspective, as shown in Figure 1-4. We
+build models so that we can better understand the system we are
+modeling; we build models of complex systems because we cannot
+comprehend such systems in their entirety.
+Modeling is important because it helps the development team
+visualize, specify, construct, and document the structure and behavior
+of a system’s architecture. Using a standard modeling language, 
 
+such as the UML (Unified Modeling Language), different members
+of the development team can unambiguously communicate their
+decisions to one another.
+
+![Modeling System](./images/modeling.png)
+
+Visual modeling tools facilitate the management of these models,
+letting you hide or expose details as necessary. Visual modeling
+also helps to maintain consistency between a system’s artifacts: its
+requirements, designs, and implementations. In short, visual modeling
+helps improve a team’s ability to manage software complexity.
+When coupled with the practice of developing software iteratively,
+visual modeling helps you expose and assess architectural
+changes and communicate those changes to the entire development
+team. With the right kind of tools, you can then synchronize
+your models and source code during each iteration.
+
+Modeling your software visually offers a number of solutions to
+the root causes of software development problems.
+1. Use cases and scenarios unambiguously specify behavior.
+2. Models unambiguously capture software design.
+3. Nonmodular and inflexible architectures are exposed.
+4. Detail can be hidden when necessary.
+5. Unambiguous designs reveal their inconsistencies more
+readily.
+6. Application quality starts with good design.
+7. Visual modeling tools provide support for UML modeling.
+
+#### Verify software quality
+Software problems are 100 to 1,000 times more expensive to find and repair after deployment. For this reason,
+it’s important to continuously assess the quality of a system with respect to its functionality, reliability, application performance,
+and system performance.
+
+Verifying a system’s functionality—the bulk of the testing activity—
+involves creating tests for each key scenario, each of which
+represents some aspect of the system’s desired behavior. You can
+assess a system’s functionality by asking which scenarios failed and
+where, as well as which scenarios and corresponding code have
+not yet been exercised. As you are developing your software iteratively,
+you test at every iteration, a process of continuous, quantitative
+assessment.
+Verifying software quality offers a number of solutions (see next
+page) to the root causes of software development problems
+
+1. Project status assessment is made objective, and not subjective,
+because test results, and not paper documents, are
+evaluated.
+2. This objective assessment exposes inconsistencies in
+requirements, designs, and implementations.
+3. Testing and verification are focused on areas of highest risk,
+thereby increasing their quality and effectiveness.
+4. Defects are identified earlier, radically reducing the cost of
+fixing them.
+5. Automated testing tools provide testing for functionality, reliability, and performance.
+
+#### Control changes to software
+A key challenge when you’re developing software-intensive systems
+is that you must cope with multiple developers organized into different
+teams, possibly at different sites, working together on multiple
+iterations, releases, products, and platforms. In the absence of
+disciplined control, the development process rapidly degenerates
+into chaos.
+
+Coordinating the activities and the artifacts of developers and
+teams involves establishing repeatable workflows for managing
+changes to software and other development artifacts. This coordination
+allows a better allocation of resources based on the project’s
+priorities and risks, and it actively manages the work on those
+changes across iterations. Coupled with developing your software
+iteratively, this practice lets you continuously monitor changes so
+that you can actively discover and then react to problems.
+Coordinating iterations and releases involves establishing and
+releasing a tested baseline at the completion of each iteration.
+Maintaining traceability among the elements of each release and
+among elements across multiple, parallel releases is essential for
+assessing and actively managing the impact of change.
+
+Controlling changes to software offers a number of solutions to
+the root causes of software development problems.
+
+1. The workflow of requirements change is defined and
+repeatable.
+2. Change requests facilitate clear communications.
+3. Isolated workspaces reduce interference among team
+members working in parallel.
+4. Change rate statistics provide good metrics for objectively
+assessing project status.
+5. Workspaces contain all artifacts, facilitating consistency.
+6. Change propagation is assessable and controlled.
+7. Changes can be maintained in a robust, customizable
+system.
+     
 ### References
 * The Rational Unified Process An Introduction by *Philippe Kruchten*
 
