@@ -83,7 +83,33 @@ continuously improve the process.
 8. Stakeholders in the project can be given concrete evidence
 of the project’s status throughout the life cycle.
 
+#### Requirements management
+The challenge of managing the requirements of a software-intensive
+system is that they are dynamic: you must expect them to change
+during the life of a software project. Furthermore, identifying a
+system’s true requirements—those that weigh most heavily on the
+system’s economic and technical goals—is a continuous process.
 
+Except for the most trivial system, it is impossible to completely and
+exhaustively state a system’s requirements before the start of development.
+
+A requirement is a condition or capability a system must meet.
+The active management of requirements encompasses three activities:
+eliciting, organizing, and documenting the system’s required
+functionality and constraints; evaluating changes to these requirements and assessing their impact; and tracking and documenting
+trade-offs and decisions. Managing the requirements of your project offers a number of
+solutions to the root causes of software development problems.
+
+1. A disciplined approach is built into requirements
+management.
+2. Communications are based on defined requirements.
+3. Requirements can be prioritized, filtered, and traced.
+4. An objective assessment of functionality and performance is
+possible.
+5. Inconsistencies are more easily detected.
+6. With suitable tool support, it is possible to provide a repository
+for a system’s requirements, attributes, and traces,
+with automatic links to external documents.
 
 ### References
 * The Rational Unified Process An Introduction by *Philippe Kruchten*
